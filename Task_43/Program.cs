@@ -7,7 +7,7 @@
         /// <returns>Число типа Double</returns>
         static public double ConsoleInputDouble( string message="" ) {
             Console.Write( message );
-            return int.Parse( Console.ReadLine() ?? "" );
+            return double.Parse( Console.ReadLine() ?? "" );
         }
 
 
